@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+*, :before, :after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+._container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  overflow: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 650px;
+  margin: 20px 0 0 0;
+  border: 2px #000 solid;
+  border-collapse: collapse;
+}
+
+.table__row:nth-child(2n-1) {
+  background-color: #d8d8d8;
+}
+
+.table__row:only-child {
+  background-color: #fff;
+}
+
+.table__item {
+  padding: 0.6em 0.5em;
+  border: 1px #000 solid;
+}
+
+.table__item_content {
+  text-align: center;
+}

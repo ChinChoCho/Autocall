@@ -1,0 +1,24 @@
+.table {
+   width: 100%;
+   min-width: 650px;
+   margin: 20px 0 0 0;
+   border: 2px #000 solid;
+   border-collapse: collapse;
+   // .table__row
+   &__row {
+      &:nth-child(2n-1) {
+         background-color: rgb(216, 216, 216);
+      }
+      &:only-child{
+         background-color: #fff;
+      }
+   }
+   // .table__item
+   &__item {
+      padding: 0.6em 0.5em;
+      border: 1px #000 solid;
+      &_content {
+         text-align: center;
+      }
+   }
+}
