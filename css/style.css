@@ -31,7 +31,7 @@
 }
 
 .table__row:nth-child(2n-1) {
-  background-color: #d8d8d8;
+  background-color: #e0dddd;
 }
 
 .table__row:only-child {
